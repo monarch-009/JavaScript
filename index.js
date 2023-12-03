@@ -63,5 +63,27 @@ console.log(person.name);
 let selectedColors = ['red','blue']; //Array Literal
 console.log(selectedColors);
 
+//Array functions 
+
+//Types of functions
+
+//Performing a task
+function greet(name, lastName){
+    console.log('Hello ' + name + ' ' + lastName);
+}   
+
+greet('Aditya','Singh');
+greet('Sumit','Singh');
+
+
+//Calculating a value
+function square(number){
+    return number * number;
+}
+
+// let number = square(15);
+// console.log(number); 
+console.log(square(15)); 
+
 
 
