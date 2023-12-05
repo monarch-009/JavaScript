@@ -16,3 +16,13 @@ console.log(typeof null); //object -> bug in js
 
 //Reference Data Types (Non-Primitive)
 //Object,Array,Function
+let person = {
+  name: "Aditya",
+  age: 30
+}; //object
+const colors = ["red", "blue", "green"]; //array
+
+const myfunction = function () {
+    console.log("Hello World");
+}
+
