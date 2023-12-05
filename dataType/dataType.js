@@ -3,6 +3,7 @@
 // alert("Hello World"); // we can use alert in browser
 
 //Primitive Data Types
+//String,Number ,Boolean ,undefined ,null, symbol,bigInt 
 let name = "Aditya"; //string => "",'',``
 let age = 30; //number => int,float => 2 to power 53
 let isApproved = true; //boolean => true,false
@@ -13,10 +14,5 @@ let lastName = null; //null => explicitly cleared by the developer
 
 console.log(typeof null); //object -> bug in js
 
-//Reference Data Types
-//Object
-//Array
-//Function
-//Date
-//RegExp
-//Error 
+//Reference Data Types (Non-Primitive)
+//Object,Array,Function
