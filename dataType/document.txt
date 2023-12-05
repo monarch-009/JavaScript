@@ -1,0 +1,72 @@
+JavaScript Data Types
+
+JavaScript is a dynamically typed language, meaning that variables are not explicitly declared with a data type. Instead, the data type is determined at runtime. There are several built-in data types in JavaScript, categorized into two main groups: primitive data types and object data types.
+
+1. Primitive Data Types
+
+a. Number:
+Represents numeric values.
+Examples: 10, 3.14, -5.
+
+b. String:
+Represents textual data.
+Examples: 'Hello, World!', "JavaScript".
+
+c. Boolean:
+Represents logical values true or false.
+Examples: true, false.
+
+d. Undefined:
+Represents a variable that has been declared but not assigned a value.
+Example: let x;
+
+e. Null:
+Represents the intentional absence of any object value.
+Example: let y = null;
+
+f. Symbol:
+Introduced in ECMAScript 6 (ES6).
+Represents a unique identifier.
+Example: const mySymbol = Symbol('description');
+
+2. Object Data Types
+
+a. Object:
+Represents a collection of key-value pairs.
+Example: { name: 'John', age: 25 }.
+
+b. Array:
+Represents an ordered collection of values.
+Example: let colors = ['red', 'green', 'blue'];.
+
+c. Function:
+Represents a reusable block of code.
+Example:
+javascript
+Copy code
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+d. Date:
+Represents dates and times.
+Example: let today = new Date();.
+
+e. RegExp:
+Represents regular expressions for pattern matching.
+Example: let pattern = /[a-z]/;.
+
+Type Checking
+JavaScript provides the typeof operator to determine the type of a variable:
+
+javascript
+Copy code
+typeof 42;          // "number"
+typeof 'hello';     // "string"
+typeof true;        // "boolean"
+typeof undefined;   // "undefined"
+typeof null;        // "object"
+typeof Symbol();    // "symbol"
+typeof {key: 'value'};  // "object"
+typeof [1, 2, 3];   // "object"
+typeof function() {};  // "function"
