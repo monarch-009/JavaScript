@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <h1 style="color: brown;">Object</h1>
+    <script>
+        /*
+        //object
+        const product ={
+            name: 'Laptop', //key: value
+            price: 60000,
+            brand: 'HP',
+        };
+        console.log(product);
+        console.log(product.name);
+        console.log(product.price);
+        console.log(product.brand);
+
+        //change value
+        product.price = 50000;
+        console.log(product);
+
+        //add new property
+        product.color = 'black';
+        console.log(product);
+
+        //delete property
+        delete product.brand;
+        console.log(product); */
+
+        /*const product1 ={ //object
+            name: 'shirt', //key: value
+            price: 1000,
+            brand: 'Polo',
+            'delivery-time': '5 days',
+
+            rating:{   //nested object
+                design: 4.5,
+                quality: 4.0,
+            },
+
+            fun :function func(){ //nested function
+                console.log("Aditya's product");
+            }
+            
+
+        };
+        console.log(product1);
+        console.log(product1.name);
+        console.log(product1[name]);
+        console.log(product1['delivery-time']);
+        console.log(product1.rating);
+        console.log(product1.rating.design);
+        console.log(product1.rating.quality);
+        product1.fun();
+
+        console .log(JSON.stringify(product1)); //convert object to string
+        const str = JSON.stringify(product1);
+        console.log(JSON.parse(str)); //convert string to object
+        */
+
+        console.log('hello'.length);//property
+        console.log('hello'.toUpperCase());//method
+
+        const object1 = {
+            message: 'Hello, World!',
+        }
+        const object2 = object1;
+        object2.message = 'Hi, World!!';
+        console.log(object1.message);
+        console.log(object2.message);
+
+
+        const object3 = {
+            message: 'Hello, World!',
+        }
+        const object4 = {
+            message: 'Hello, World!',
+        }
+
+        console.log(object3 === object4);
+        console.log(JSON.stringify(object3) === JSON.stringify(object4));
+
+        //const message = object3.message;
+        const {message} = object3;
+
+        
+    </script>
+</body>
+</html>
