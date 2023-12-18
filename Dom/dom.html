@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <button>First button</button>
+    <button class="js">Second button</button>
+
+    <script>
+
+        //DOM --> Document Object Model
+
+        document.querySelector('button').onclick = function(){
+            alert('First button');
+        }
+         const secondButton = document.querySelector('.js');
+            console.log(secondButton.innerHTML);
+            secondButton.onclick = function(){
+                alert('Second button');
+            }
+
+
+
+        /*
+        console.log(document.title);
+        document.title = 'Document_Object_Model';
+        console.log(document.title);
+
+
+        console.log(document.body);
+        console.log(typeof document.body);
+        console.log(document.body.innerHTML);
+
+        document.body.innerHTML = '<button>Good Job!</button>';
+        */
+
+
+        /*
+        document.body.innerHTML = '<h1>Hello</h1>';
+        document.title= 'Document_Object_Model';
+        */
+    </script>
+    
+</body>
+</html>
