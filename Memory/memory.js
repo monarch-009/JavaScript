@@ -17,5 +17,6 @@ let userOne = {
 let userTwo = userOne; //copy by reference
 userTwo.email = "adi@gmail.com"
 
+
 console.log(userOne);
 console.log(userTwo);
